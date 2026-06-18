@@ -11,7 +11,7 @@ let button3 = document.querySelector(".option-three");
 let button4 = document.querySelector(".option-four");
 let button6 = document.querySelector(".option-six");
 let button7 = document.querySelector(".option-seven");
-
+let buttonRS = document.querySelector(".option-");
 // When you're ready to make event handlers, uncomment the code below.
 //  - Then fill in the blanks with the correct variables.
 
