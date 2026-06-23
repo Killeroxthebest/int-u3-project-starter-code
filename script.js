@@ -12,6 +12,8 @@ let button4 = document.querySelector(".option-four");
 let button6 = document.querySelector(".option-six");
 let button7 = document.querySelector(".option-seven");
 let buttonRS = document.querySelector(".option-");
+let title = document.querySelector(".title")
+let title2 = document.querySelector(".title-two")
 // When you're ready to make event handlers, uncomment the code below.
 //  - Then fill in the blanks with the correct variables.
 
@@ -20,6 +22,8 @@ button1.addEventListener('click', function () {
     opening.style.display = 'none'
     button1.style.display = 'none'
     button2.style.display = 'none'
+    title.style.display = 'none'
+    title2.style.display = 'block'
 });
 
 button2.addEventListener('click', function () {
@@ -27,6 +31,8 @@ button2.addEventListener('click', function () {
     opening.style.display = 'none'
     button1.style.display = 'none'
     button2.style.display = 'none'
+    title.style.display = 'none'
+    title2.style.display = 'none'
 });
 
 button3.addEventListener('click', function () {
@@ -34,6 +40,7 @@ button3.addEventListener('click', function () {
     screen1.style.display = 'none'
     button3.style.display = 'none'
     button4.style.display = 'none'
+     title2.style.display = 'none'
 });
 
 button4.addEventListener('click', function () {
