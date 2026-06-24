@@ -40,7 +40,7 @@ button3.addEventListener('click', function () {
     screen1.style.display = 'none'
     button3.style.display = 'none'
     button4.style.display = 'none'
-     title2.style.display = 'none'
+    title2.style.display = 'none'
 });
 
 button4.addEventListener('click', function () {
@@ -48,6 +48,7 @@ button4.addEventListener('click', function () {
     screen1.style.display = 'none'
     button3.style.display = 'none'
     button4.style.display = 'none'
+    title2.style.display = 'none'
 });
 
 button6.addEventListener('click', function () {
